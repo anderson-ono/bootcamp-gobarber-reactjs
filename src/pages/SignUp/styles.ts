@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 import sigUpBackgroundImg from '../../assets/sign-up-background.png';
 
-
 export const Container = styled.div`
   height: 100vh;
   display: flex;
@@ -29,7 +28,7 @@ export const Content = styled.div`
     }
 
     a {
-      color: #F4EDE8;
+      color: #f4ede8;
       display: block;
       margin-top: 24px;
       text-decoration: none;
@@ -42,20 +41,20 @@ export const Content = styled.div`
   }
 
   > a {
-    color: #F4EDE8;
-      display: flex;
-      align-items: center;
-      margin-top: 24px;
-      text-decoration: none;
-      transition: color 0.2s;
+    color: #f4ede8;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    text-decoration: none;
+    transition: color 0.2s;
 
-      &:hover {
-        color: ${shade(0.2, '#F4EDE8')};
-      }
+    &:hover {
+      color: ${shade(0.2, '#F4EDE8')};
+    }
 
-      svg {
-        margin-right: 16px;
-      }
+    svg {
+      margin-right: 16px;
+    }
   }
 `;
 export const Background = styled.div`

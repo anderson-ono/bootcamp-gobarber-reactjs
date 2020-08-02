@@ -29,6 +29,7 @@
       "prettier"
   ],
   "rules": {
+    "spaced-comment": "off",
     "prettier/prettier": "error",
     "react/jsx-on-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
@@ -43,6 +44,7 @@
         "allowExpressions": true
       }
     ],
+    "@typescript-eslint/ban-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
